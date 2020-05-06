@@ -33,11 +33,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 1rem 0 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .play {
     margin-top: 0;
     width: 100%;
     text-align: end;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        margin: 0 1rem 0 1rem;
+    }
 }
